@@ -25,6 +25,7 @@ public class Crawler {
         Document doc = Jsoup.connect(url_procesar).get();
         String html_element = doc.html(); 
         return html_element;
+        system.ln
     }
     
      //Retorna las paginas refereridas en un objeto de tipo elemento
